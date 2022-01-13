@@ -207,6 +207,10 @@ a {
 .list-button > li:not(:last-child) {
   margin-right: 8px;
 }
+.section-button{
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 .button {
   background-color: var(--background-button);
   border: none;
@@ -229,9 +233,6 @@ a {
 .button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-}
-.section-button {
-  padding-bottom: 94px;
 }
 .work-place {
   color: var(--title-text-color);
