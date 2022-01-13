@@ -26,7 +26,7 @@ body {
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   background-color: #2f303a;
 
   /* border: 5px solid red; */
@@ -46,7 +46,7 @@ img {
 header {
   border-bottom: 1px solid #ececec;
 }
-.section-logo {
+/* .section-logo { */
   /* border-bottom: 1px solid #ececec; */
 
   /* border: 5px solid red; */
@@ -84,13 +84,17 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-
   width: 270px;
 }
+
+.team-work:last-child {
+margin-right: 0px;
+}
+
 .list-title {
   padding: 0;
   display: flex;
-  margin-right: -30px;
+  
 }
 .list {
   margin-bottom: 5px;
@@ -157,7 +161,7 @@ a {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
 
   display: block;
   padding-top: 32px;
@@ -168,7 +172,7 @@ a {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
 
   display: block;
   padding-top: 32px;
@@ -219,6 +223,7 @@ a {
   /* border: 1px solid teal; */
   justify-content: center;
   background-color: var(--primary-white-color);
+  margin-bottom: 50px;
 }
 .button:hover,
 .button:focus {
@@ -226,9 +231,7 @@ a {
   background-color: var(--accent-color);
 }
 .section-button {
-  padding-bottom: 50px;
-  padding-top: 94px;
-  /* background-color: turquoise; */
+  padding-bottom: 94px;
 }
 .work-place {
   color: var(--title-text-color);
@@ -257,6 +260,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-bottom: 10px;
 }
 .card-team {
   padding-top: 30px;
@@ -296,11 +300,11 @@ footer {
   font-size: 14px;
   line-height: 1.7;
   display: block;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 0px;
 }
 .address-logo {
-  color: var(--primary-text-color);
+  color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
   /* border: 2px solid red; */
 }
@@ -336,7 +340,7 @@ footer {
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-  padding-bottom: 94px;
+  
 }
 
 .list-gallery > .card-set {
@@ -349,9 +353,12 @@ footer {
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
 
-  border-bottom: 1px solid #ececec;
+  border: 1px solid #EEEEEE;
 }
-
+.card-text{
+  color: 
+rgba(117, 117, 117, 1);
+}
 .button,
 .logo-button {
   cursor: pointer;
@@ -388,6 +395,8 @@ p {
   font-size: 26px;
   line-height: 1.19;
   display: block;
+  margin-top: 20px;
+
 }
 footer {
   background-color: var(--title-text-color);
@@ -400,3 +409,11 @@ footer {
 .thumb {
   margin-left: 30px;
 }
+/* .team-work::before { */
+/* content: ""; */
+/* display: block; */
+/* height: 120px; */
+/* outline: 1px solid palegreen; */
+/* margin-bottom: 30px; */
+/* } */
+/*  */
